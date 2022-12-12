@@ -1,2 +1,4 @@
 # banca02
-Sistema ´para gestionar los clientes y cuentas de un banco
+Sistema ´para gestionar los clientes, cuentas y transacciones de un banco.
+
+Para verificar los cambios.
