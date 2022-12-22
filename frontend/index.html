@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banca02</title>
+   <link rel="stylesheet" href="/frontend/css/index.css">
+   <style>
+
+
+
+   </style>
+
+</head>
+<body>
+    <!-- heades se va a colocar titulo y menu-->
+    <header style = "background-color:white; height: 200px; width: 100%;">
+      
+        <!--caja para colocar logo-->
+        <div class="estilo-caja-logo"> 
+            <img src="img/imagen1.png" />
+                
+        </div>
+        <!-- caja para colocar titulo-->
+         
+        <div style="float:left; width: 70%; height: 200px; text-align: center;">
+            <h1>BANCO DUKABA</h1>
+            <h2 class="color2">SISTEMA PARA GESTIONAR EL MOVIMIENTO DE CUENTAS BANCARIAS</h2>
+        </div>
+
+               <!--caja para colocar logo-->
+        <div class="estilo-caja-logo"> 
+            <img src="img/imagen2.png" />
+                    
+        </div>
+
+    <!--xxxxxxxxxxxxxxxxxxxxxx  MENU  XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
+        <nav id="menu">
+
+            <ul>
+                <li style = "display:inline-block"><a href="#">CLIENTE</a></li>
+                <li style = "display:inline-block"><a href="#">CUENTA</a></li>
+                <li style = "display:inline-block"><a href="#">TRANSACCIÓN</a></li>
+            
+                
+            </ul>
+
+
+        </nav>
+       
+    </header>
+    <br />
+    <br />
+   
+   <!--xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-->
+<main style="text-align:center" id_caja_principal> 
+    <h3>REGISTRO CUENTA</h3> 
+    <form class="formulario">
+        <br />
+
+        <label>Nombre del Cliente</label>
+       
+        <select id="autor">
+            <option value="1">David Macías</option>
+            <option value="2">Wilson Rodriguez</option>
+            <option value="3">Evi Gonzales</option>
+             <option value="3">Sergio Pardo</option>
+             <option value="3">Juan Mora</option>
+        </select>
+        <br /><br />
+
+        <label class = "estilo_label">Fecha de Apertuta </label>
+        <input type="text" id="nombre_libro" name="nombre_libro"/>
+        <br /> <br />
+
+        <label class = "estilo_label">Número Documento</label>
+        <input type="text" id="Tipo" name="Tipo"/>
+
+        <br />  <br />
+
+        <input class="boton_guardar" type="submit" value="Guardar Cuenta">
+        <input class="boton_guardar" type="submit" value="Modificar Cuenta">
+        <input class="boton_guardar" type="submit" value="Consultar">
+     
+    </form>
+    
+    <!--xxxxxxxxxxxxxxxxxxxxxxxTABLA PARA MOSTRAR LA INFORMACIÓNXXXXXXXXXXXXXXXXXXX-->
+ 
+ 
+  
+        <!-- Simple table with header -->
+    <br /><br />
+
+        <table style="margin-left:auto; margin-right:auto;">
+          <tr>
+            <th>Nombre del Cliente</th>
+            <th>Número de Cuenta</th>
+            <th>Saldo de Cuenta</th>
+          </tr>
+
+          <tr>
+            <td>David Macías</td>
+            <td>00000204585</td>
+            <td>34586127</td>
+          </tr>
+          <tr>
+            <td>Sergio Gonzalez</td>
+            <td>000000324563</td>
+            <td>259987</td>
+          </tr>
+
+          
+    </table>    
+   
+
+        
+</main>  
+    <!--contenido a nivel Institucional-->
+    <flooter>
+        
+       
+    </flooter>
+
+    
+ 
+
+</body>
+</html>
